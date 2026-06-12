@@ -25,7 +25,7 @@ export default function App() {
       <div className="fixed right-2 top-1/2 -translate-y-1/2 flex-col items-center gap-12 pointer-events-none hidden xl:flex z-30">
         <div className="h-24 w-[1px] bg-[#1A1A1A] opacity-20"></div>
         <p className="rotate-90 text-[8px] tracking-[0.5em] uppercase font-bold whitespace-nowrap opacity-35 text-[#1A1A1A]">
-          ESTABLISHED 2024 • KEDAH DARUL AMAN
+          RRHOMESTAY
         </p>
         <div className="h-24 w-[1px] bg-[#1A1A1A] opacity-20"></div>
       </div>
