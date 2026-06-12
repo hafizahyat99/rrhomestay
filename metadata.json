@@ -1,0 +1,10 @@
+{
+  "name": "RR Homestay & Eventspace",
+  "description": "Laman web rasmi premium RR Homestay & Eventspace Kedah di Pokok Sena. Tempat penginapan, event space eksklusif, dan pakej perkahwinan lengkap.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
