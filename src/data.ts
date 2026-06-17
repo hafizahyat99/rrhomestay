@@ -45,7 +45,7 @@ export interface FAQItem {
 export interface GalleryItem {
   id: string;
   url: string;
-  category: 'all' | 'pelamin' | 'dewan' | 'homestay' | 'katering' | 'majlis';
+  category: 'all' | 'pelamin' | 'eventspace' | 'homestay' | 'katering' | 'majlis';
   title: string;
   subtitle: string;
 }
@@ -53,7 +53,7 @@ export interface GalleryItem {
 export const ACCOMMODATIONS: Accommodation[] = [
   {
     id: "studio",
-    name: "Studio Luxe Suite",
+    name: "Studio Unit",
     pax: 2,
     price: 150,
     rooms: 1,
@@ -61,13 +61,13 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 1,
     wifi: true,
     tag: "Terlaris untuk Pasangan",
-    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200",
-    amenities: ["1 Katil Queen Size", "1 Bilik Mandi Peribadi", "Sistem Aircond Penuh", "WiFi Percuma berkelajuan tinggi", "Smart TV & Netflix", "Mini Fridge & Kettle", "Akses Kolam Hiasan"],
-    description: "Nikmati ketenangan dalam ruang studio minimalis berkonsep moden-mewah. Sesuai untuk percutian intim pasangan, pengantin baru, atau urusan kerja singkat di Pokok Sena."
+    image: "https://imgur.com/a/6XHrHYH",
+    amenities: ["1 Katil Queen Size", "1 Bilik Mandi Peribadi", "Sistem Aircond Penuh", "WiFi Percuma berkelajuan tinggi", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle", "Meja Makan"],
+    description: "Nikmati ketenangan dalam ruang studio minimalis berkonsep moden-mewah. Sesuai untuk percutian pasangan, pengantin baru, atau urusan kerja singkat di Pokok Sena."
   },
   {
     id: "superior",
-    name: "Superior Twin Suite",
+    name: "Superior Twin Unit",
     pax: 4,
     price: 200,
     rooms: 2,
@@ -75,9 +75,9 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 2,
     wifi: true,
     tag: "Sesuai untuk Keluarga Kecil",
-    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1200",
-    amenities: ["2 Katil Queen/Single", "1 Bilik Mandi Elegan", "2 Unit Aircond Berasingan", "WiFi Percuma berkelajuan tinggi", "Ruang Tamu Selesa", "Kemudahan Iron & Iron Board", "Kemudahan Memasak Ringkas"],
-    description: "Ruang yang lebih luas dengan dua buah bilik tidur berasingan. Sesuai untuk percutian keluarga kecil yang menginginkan keselesaan optimum bertaraf hotel resort premium."
+    image: "https://imgur.com/a/ozlrxuw",
+    amenities: ["1 Katil Queen - 2 KatikSingle", "1 Bilik Mandi", "2 Unit Aircond Berasingan", "WiFi Percuma berkelajuan tinggi", "Ruang Tamu Selesa", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle"],
+    description: "Ruang yang lebih luas dengan dua buah bilik tidur berasingan. Sesuai untuk percutian keluarga kecil yang menginginkan keselesaan."
   },
   {
     id: "family",
@@ -89,9 +89,9 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 4,
     wifi: true,
     tag: "Pakej Utama Keluarga Besar",
-    image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=1200",
-    amenities: ["3 Katil Master Queen", "2 Bilik Mandi Mewah", "4 Unit Aircond (Setiap Bilik & Ruang Tamu)", "WiFi Percuma berkelajuan tinggi", "Dapur Lengkap Perkakas Memasak", "Sofa Mewah & Smart TV 55 Inch", "Peti Sejuk Besar & Mesin Basuh", "Parking Luas Berpagar (3 Buah Kereta)"],
-    description: "Rumah penginapan eksklusif berkonsepkan modern tropical villa. Dilengkapi dengan segala kemudahan rumah idaman, membolehkan seluruh keluarga besar berkumpul dan berehat dengan mewah sepanjang berlangsungnya majlis."
+    image: "https://imgur.com/a/69V2qSf",
+    amenities: ["2 Katil Queen - 1 Katil Double Deck", "2 Bilik Mandi", "4 Unit Aircond (Setiap Bilik & Ruang Tamu)", "WiFi Percuma berkelajuan tinggi", "Dapur Lengkap Perkakas Memasak", "Sofa & Tv", "Peti Sejuk & Mesin Basuh", "Parking Luas Berpagar"],
+    description: "Rumah penginapan eksklusif. Dilengkapi dengan segala kemudahan rumah idaman, membolehkan seluruh keluarga besar berkumpul dan berehat dengan selesa sepanjang berlangsungnya majlis."
   }
 ];
 
