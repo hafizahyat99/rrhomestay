@@ -33,11 +33,11 @@ export default function Gallery() {
             <span className="text-[10px] uppercase tracking-[0.25em] font-sans font-bold">Galeri Keindahan</span>
           </div>
           <h2 className="font-serif text-3xl md:text-5xl font-light text-[#1A1A1A] tracking-tight mb-6">
-            Eksplorasi Sudut &amp; <span className="italic text-[#C5A059]">Seni Bina RR</span>
+            Gambar &amp; <span className="italic text-[#C5A059]">Suasana di  RR Homestay Eventsapce</span>
           </h2>
           <div className="w-16 h-[1px] mx-auto bg-[#C5A059] mb-6" />
           <p className="font-sans text-xs md:text-sm text-[#4A4A4A] leading-relaxed font-light max-w-2xl mx-auto">
-            Sorotan kualiti hiasan pelamin, susun atur dewan acara kami yang selesa, katering berkualiti tinggi, serta kebersihan unit homestay kami yang terjaga rapi.
+            kualiti susun atur kawasan acara kami yang selesa, katering yang dipercayai, serta kebersihan unit homestay kami yang terjaga rapi.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function Gallery() {
           {[
             { id: 'all', label: 'Semua Gambar' },
             { id: 'pelamin', label: 'Pelamin & Hiasan' },
-            { id: 'dewan', label: 'Dewan Acara' },
+            { id: 'dewan', label: 'Kawasan Acara' },
             { id: 'homestay', label: 'Suasana Homestay' },
             { id: 'katering', label: 'Katering Sajian' },
             { id: 'majlis', label: 'Suasana Majlis' }
@@ -120,7 +120,7 @@ export default function Gallery() {
           {/* Lightbox Header Controls */}
           <div className="absolute top-4 inset-x-0 px-6 flex items-center justify-between text-white z-50">
             <div>
-              <p className="font-sans text-[10px] tracking-widest text-gold-400 font-semibold uppercase">RR GALERI PREMIUM</p>
+              <p className="font-sans text-[10px] tracking-widest text-gold-400 font-semibold uppercase">RR HOMESTAY EVENTSPACE</p>
               <h5 className="font-serif text-base leading-none mt-1 text-white/90">{filteredItems[lightboxIndex].title}</h5>
             </div>
             
