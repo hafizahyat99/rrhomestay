@@ -4,22 +4,22 @@ const FEATURE_CARDS = [
   {
     icon: Award,
     title: "Semua Dalam Satu Lokasi",
-    description: "Nikmati kemudahan homestay, tempat perhimpunan acara, dewan makan, dan katering berkualiti tinggi yang terletak bersebelahan dalam satu kawasan tapak seluas 1.5 ekar tanpa perlu berpindah tempat."
+    description: "Nikmati kemudahan homestay, tempat perhimpunan acara, pakej kahwin, dan katering berkualiti tinggi yang terletak bersebelahan dalam satu kawasan tapak seluas 1.5 ekar tanpa perlu berpindah tempat."
   },
   {
     icon: Coins,
     title: "Jimat Masa & Kos Tinggi",
-    description: "Tiada caj sewa tempat tersembunyi yang mahal. Kami menyusun pakej hiasan, katering bertaraf resort, dan penginapan berbilang bilik dalam satu harga borong jimat yang mudah diurus."
+    description: "Tiada caj sewa tempat tersembunyi yang mahal. Kami menyusun pakej perkahwinan, katering dan penginapan homestay dalam satu harga yang mudah diurus."
   },
   {
     icon: MapPin,
     title: "Ruang Majlis Eksklusif",
-    description: "Sesuai untuk segenap jenis keraian—resepis perkahwinan adat, upacara nikah damai, sambutan aqiqah syahdu, makan malam korporat tahunan, atau mesyuarat pengurusan tertutup."
+    description: "Sesuai untuk segala jenis majlis , akad nikah , persandingan, sambutan aqiqah syahdu, makan malam korporat tahunan, atau mesyuarat pengurusan tertutup."
   },
   {
     icon: Bed,
-    title: "Penginapan Selesa & Mewah",
-    description: "Dilengkapi bilik-bilik hotel studio dan homestay banglo berhawa dingin sepenuhnya bagi memastikan tetamu jauh, warga emas, atau pengantin dapat berteduh dan berehat dengan tenang."
+    title: "Penginapan Selesa",
+    description: "Dilengkapi bilik-bilik studio dan homestay banglo berhawa dingin sepenuhnya bagi memastikan tetamu jauh, warga emas, atau pengantin dapat berehat dengan tenang."
   }
 ];
 
@@ -40,12 +40,12 @@ export default function Features() {
             <span className="text-[10px] uppercase tracking-[0.25em] font-sans font-bold">Pengalaman Yang Eksklusif</span>
           </div>
           <h2 className="font-serif text-3xl md:text-5xl font-light text-[#1A1A1A] tracking-tight leading-tight mb-6">
-            Kenapa RR Adalah Keputusan Terbaik <br />
+            Kenapa RR Homestay &amp; Eventspace Adalah Keputusan Terbaik <br />
             <span className="italic text-[#C5A059]">Untuk Detik Bersejarah Anda?</span>
           </h2>
           <div className="w-16 h-[1px] mx-auto bg-[#C5A059] mb-6" />
           <p className="font-sans text-xs md:text-sm text-[#4A4A4A] leading-relaxed font-light max-w-2xl mx-auto">
-            Kami menggabungkan seni bina timur moden dengan kemudahan terkini untuk memberikan ketenangan fikiran mutlak kepada bakal penganjur majlis dan pengantin.
+            Lokasi kami di dalam kawasan kampung dengan senibina moden dan kemudahan terkini serta lengkap untuk memberikan ketenangan fikiran kepada bakal penganjur majlis, mereka yang ingin menginap dan pengantin.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export default function Features() {
             &ldquo;Penjimatan sehingga 30% kos logistik dan pengangkutan dengan menghimpunkan semua keluarga rapat pengantin di lokasi majlis yang sama.&rdquo;
           </p>
           <p className="font-sans text-[10px] tracking-widest font-semibold text-[#C5A059] mt-4 uppercase">
-            — Bahagian Kajian &amp; Penilaian Pelanggan RR Kedah
+            — Bahagian Kajian Penilaian Pelanggan RR Homestay &amp; Eventspace
           </p>
         </div>
 
