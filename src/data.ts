@@ -61,7 +61,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 1,
     wifi: true,
     tag: "Terlaris untuk Pasangan",
-    image: "https://imgur.com/a/6XHrHYH",
+    image: "https://i.imgur.com/XMJxrxu.jpeg",
     amenities: ["1 Katil Queen Size", "1 Bilik Mandi Peribadi", "Sistem Aircond Penuh", "WiFi Percuma berkelajuan tinggi", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle", "Meja Makan"],
     description: "Nikmati ketenangan dalam ruang studio minimalis berkonsep moden-mewah. Sesuai untuk percutian pasangan, pengantin baru, atau urusan kerja singkat di Pokok Sena."
   },
@@ -75,7 +75,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 2,
     wifi: true,
     tag: "Sesuai untuk Keluarga Kecil",
-    image: "https://imgur.com/a/ozlrxuw",
+    image: "https://i.imgur.com/gT1Y5k5.jpeg",
     amenities: ["1 Katil Queen - 2 KatikSingle", "1 Bilik Mandi", "2 Unit Aircond Berasingan", "WiFi Percuma berkelajuan tinggi", "Ruang Tamu Selesa", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle"],
     description: "Ruang yang lebih luas dengan dua buah bilik tidur berasingan. Sesuai untuk percutian keluarga kecil yang menginginkan keselesaan."
   },
@@ -89,7 +89,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     airconds: 4,
     wifi: true,
     tag: "Pakej Utama Keluarga Besar",
-    image: "https://imgur.com/a/69V2qSf",
+    image: "https://i.imgur.com/NiWPY9D.jpeg",
     amenities: ["2 Katil Queen - 1 Katil Double Deck", "2 Bilik Mandi", "4 Unit Aircond (Setiap Bilik & Ruang Tamu)", "WiFi Percuma berkelajuan tinggi", "Dapur Lengkap Perkakas Memasak", "Sofa & Tv", "Peti Sejuk & Mesin Basuh", "Parking Luas Berpagar"],
     description: "Rumah penginapan eksklusif. Dilengkapi dengan segala kemudahan rumah idaman, membolehkan seluruh keluarga besar berkumpul dan berehat dengan selesa sepanjang berlangsungnya majlis."
   }
@@ -98,54 +98,54 @@ export const ACCOMMODATIONS: Accommodation[] = [
 export const EVENT_PACKAGES: EventPackage[] = [
   {
     id: "wedding_gold",
-    name: "Pakej Singgahsana RR Platinum",
-    subtitle: "Pakej Perkahwinan Eksklusif Lengkap",
-    capacity: "500 - 1000 Pax",
-    priceEstimate: "Bermula RM25,000",
+    name: "Pakej 1000pax",
+    subtitle: "Pakej Perkahwinan Lengkap",
+    capacity: "500-1000 Pax",
+    priceEstimate: "Bermula RM12,500",
     features: [
-      "Sewa Dewan Utama & Laman Hijau RR (Penuh)",
-      "Set Pelamin Dewan Eksklusif (Reka Bentuk Mengikut Pilihan Trend)",
-      "Katering Sajian Premium (Nasi Minyak, Ayam Masak Merah, Daging Massaman, Acr Nenas, Bubur, 2 Jenis Minuman)",
-      "Sajian Pengantin & Meja Beradab Berhias",
-      "Sistem PA Profesional dengan Jurujual/DJ Bertauliah",
-      "Krew Pengurusan Majlis (F&B Crew + Event Coordinator)",
-      "PERCUMA: Penginapan 2 Hari 1 Malam di Homestay Keluarga RR"
+      "Kawasan Khemah Majlis (Arabian)",
+      "Kawasan Terbuka hadapan Homestay",
+      "Katering Sajian untuk tetamu",
+      "Sajian Pengantin & Meja Beradab",
+      "PA Sistem",
+      "Parking Luas & Kawalan Lalulintas",
+      "HOMESTAY UTAMA 3BILIK 2TANDAS 4 AIRCOND",
+      "PERCUMA: Unit Roomstay & Superior Twin"
     ],
-    image: "https://images.unsplash.com/photo-1519225495810-7512c696505a?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.imgur.com/xITSroJ.jpeg",
     perfectFor: ["Majlis Resepsi Perkahwinan", "Kenduri Rakyat Makmur", "Majlis Sambutan Bertema"]
   },
   {
     id: "nikah_sweet",
-    name: "Pakej Ikatan Suci RR",
+    name: "Pakej Akad/Tunang",
     subtitle: "Sempurna untuk Akad Nikah & Pertunangan",
     capacity: "50 - 150 Pax",
-    priceEstimate: "Bermula RM5,500",
+    priceEstimate: "Bermula RM5,000",
     features: [
-      "Sewa Ruang Intim RR Eventspace (Laman/Studio Area)",
-      "Set Pelamin Mini Nikah / Tunang bertema moden pastel",
-      "Katering Kasual (Meja buffet untuk 100 tetamu)",
-      "Sudut bergambar (Photobooth Standee & Prop)",
-      "Bilik Persiapan Khas Pengantin (Berhawa Dingin)",
-      "PERCUMA: Penginapan 1 Malam di Studio Luxe Suite"
+      "Sewa Ruang Kawasan Majlis",
+      "Katering Makan Untuk Tetamu",
+      "Kawasan Majlis Lengkap",
+      "HOMESTAY UTAMA 3BILIK 2TANDAS 4 AIRCOND",
+      "PERCUMA: Unit Roomstay & Superior Twin"
     ],
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.imgur.com/4LkzaBl.jpeg",
     perfectFor: ["Akad Nikah", "Majlis Pertunangan", "Aqiqah & Kesyukuran", "Majlis Hari Jadi Kakitangan Eksekutif"]
   },
   {
     id: "seminar_corp",
-    name: "Pakej Acara & Seminar Berkumpulan",
-    subtitle: "Lengkap dengan Peralatan Audio Visual",
-    capacity: "30 - 100 Pax",
-    priceEstimate: "Bermula RM1,500 / Hari",
+    name: "Kawasan Majlis (SPACE SAHAJA)",
+    subtitle: "Pakej 3 HARI 2 MALAM Sesuai untuk pelbagai majlis",
+    capacity: "1-1200 Pax",
+    priceEstimate: "RM4,000.00",
     features: [
-      "Sewaan Dewan dalam Konsep Teater / Round-Table",
-      "Projektor HD Terang & Whiteboard / Flipchart",
-      "Sistem Bunyi dengan Wireless Microphone",
-      "Pakej Makan 3 Kali Sehari (Breakfast, Lunch, High Tea)",
-      "Sokongan IT & Urusetia Dewan",
-      "Kemudahan Tempat Letak Kereta VIP Luas"
+      "Sewaan Seluruh Kawasan RR HOMESTAY",
+      "HOMESTAY UTAMA 3BILIK 2TANDAS 4 AIRCOND",
+      "PERCUMA: Unit Roomstay & Superior Twin",
+      "BOLEH ADDON MAKANAN",
+      "BOLEH ADDON PA SISTEM",
+      "Parking Luas"
     ],
-    image: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.imgur.com/mnWCWfQ.jpeg",
     perfectFor: ["Seminar & Bengkel Kerjaya", "Dinner Syarikat", "Mesyuarat Tahunan", "Team Building Kerajaan"]
   }
 ];
@@ -168,7 +168,7 @@ export const TESTIMONIALS: Testimonial[] = [
     comment: "Pelamin dewan sangat eksklusif nampak mahal macam di hotel 5-bintang. Krew pengurusan dewan sedia bantu segala urusan aturcara dari mula sampai tamat. Memang jimat kos apabila pakej perkahwinan sudah termasuk homestay premium untuk keluarga berehat lepas majlis akad nikah malam sebelumnya.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=300",
-    eventDate: "April 2026",
+    eventDate: "April 2025",
     tag: "Akad Nikah & Resepsi"
   },
   {
@@ -178,7 +178,7 @@ export const TESTIMONIALS: Testimonial[] = [
     comment: "Tempat yang paling ideal di Pokok Sena untuk mesyuarat dan seminar intensif. Tenang, bebas bising jalan raya, dan makan tenghari katering sedia masakan asli Kedah yang sungguh luar biasa lazat. Homestay Studio yang saya sewa sangat selesa dan bersih.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300",
-    eventDate: "Mac 2026",
+    eventDate: "Mac 2025",
     tag: "Acara Korporat"
   }
 ];
@@ -186,14 +186,14 @@ export const TESTIMONIALS: Testimonial[] = [
 export const FAQS: FAQItem[] = [
   {
     id: "faq_capacity",
-    question: "Berapakah kapasiti maksimum tetamu untuk dewan / eventspace?",
-    answer: "Dewan utama dan kawasan Laman Luar RR boleh menempatkan sehingga 500 orang tetamu dalam satu-satu masa. Untuk susunan majlis perkahwinan secara 'flow-through' (bergilir), kami sedia menampung kapasiti sehingga 1,000 orang tetamu dengan lancar tanpa kesesakan.",
+    question: "Berapakah kapasiti maksimum tetamu untuk eventspace?",
+    answer: "Dewan utama dan kawasan Laman Luar RR boleh menempatkan sehingga 1200 orang tetamu dalam satu-satu masa. Untuk susunan majlis perkahwinan secara 'flow-through' (bergilir), kami sedia menampung kapasiti sehingga 1,000 orang tetamu dengan lancar tanpa kesesakan.",
     category: "general"
   },
   {
     id: "faq_all_in_one",
-    question: "Adakah pakej RR benar-benar merangkumi katering, penginapan dan pelamin sekaligus?",
-    answer: "Ya benar! Falsafah utama RR adalah 'Semua Dalam Satu Lokasi'. Apabila anda menempah Pakej Singgahsana RR Platinum, anda akan mendapat sewaan dewan/laman, set pelamin berserta hiasan eksklusif, katering lazat untuk ratusan jemputan, dan percuma penginapan homestay selesa di lokasi yang sama untuk keluarga pengantin.",
+    question: "Adakah pakej RR Homestay & Eventsapce benar-benar merangkumi katering, penginapan dan pelamin sekaligus?",
+    answer: "Ya benar! Falsafah utama RR adalah 'Semua Dalam Satu Lokasi'. Apabila anda menempah Pakej Perkahwinan Lengkap, anda akan mendapat sewaan homestay dan kawasan, set pelamin rumah, katering untuk jemputan, dan percuma penginapan homestay selesa di lokasi yang sama untuk keluarga pengantin.",
     category: "event"
   },
   {
@@ -211,7 +211,7 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq_custom_catering",
     question: "Bolehkah saya membawa katering sendiri atau perlu menggunakan katering RR?",
-    answer: "Kami menyediakan pakej lengkap dewan + katering premium bagi memastikan kualiti kebersihan dan kelancaran servis terjamin. Bagaimanapun, sekiranya anda mempunyai katering pilihan tersendiri, kami sedia menawarkan pakej 'Sewa Kosong Dewan' (Hall-Only Rental) yang disertakan dengan sewaan unit homestay secara fleksibel.",
+    answer: "Kami menyediakan pakej lengkap  + katering bagi memastikan kualiti kebersihan dan kelancaran servis terjamin. Bagaimanapun, sekiranya anda mempunyai katering pilihan tersendiri, kami sedia menawarkan pakej 'Kawasan Majlis (SPACE SAHAJA)' yang disertakan dengan sewaan unit homestay secara fleksibel.",
     category: "event"
   }
 ];
