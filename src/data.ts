@@ -76,7 +76,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     wifi: true,
     tag: "Sesuai untuk Keluarga Kecil",
     image: "https://i.imgur.com/gT1Y5k5.jpeg",
-    amenities: ["1 Katil Queen - 2 KatikSingle", "1 Bilik Mandi", "2 Unit Aircond Berasingan", "WiFi Percuma berkelajuan tinggi", "Ruang Tamu Selesa", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle"],
+    amenities: ["1 Katil Queen - 2 Katil Single", "1 Bilik Mandi", "2 Unit Aircond Berasingan", "WiFi Percuma berkelajuan tinggi", "Ruang Tamu Selesa", "Kemudahan Iron & Iron Board", "Mini Fridge & Kettle"],
     description: "Ruang yang lebih luas dengan dua buah bilik tidur berasingan. Sesuai untuk percutian keluarga kecil yang menginginkan keselesaan."
   },
   {
@@ -98,7 +98,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
 export const EVENT_PACKAGES: EventPackage[] = [
   {
     id: "wedding_gold",
-    name: "Pakej 1000pax",
+    name: "Pakej Lengkap",
     subtitle: "Pakej Perkahwinan Lengkap",
     capacity: "500-1000 Pax",
     priceEstimate: "Bermula RM12,500",
@@ -155,7 +155,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t1",
     name: "Puan Sri Rohana Kamal",
     role: "Ibu Pengantin Perempuan",
-    comment: "Sangat bersyukur pilih RR untuk majlis perkahwinan anak perempuan sulung. Paling seronok sebab sepupu-sepupu datang dari jauh semua boleh sembang & tumpang tidur di Homestay Keluarga & bilik Studio yang sangat dekat sebelah dewan sahaja. Makanannya sedap, penganjuran pun sangat mesra, tetamu tak lekang memuji suasana yang dikelilingi pokok hijau yang tenang.",
+    comment: "Sangat bersyukur pilih RR untuk majlis perkahwinan anak perempuan sulung. Paling seronok sebab sepupu-sepupu datang dari jauh semua boleh sembang & tumpang tidur di Homestay Keluarga & bilik Studio yang sangat dekat sebelah dewan sahaja. Makanannya sedap, penganjuran pun sangat mesra, tetamu tak lekang memuji suasana yang tenang.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=300",
     eventDate: "Mei 2026",
@@ -165,7 +165,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t2",
     name: "Encik Amirul & Fatihah",
     role: "Pengantin Baru",
-    comment: "Pelamin dewan sangat eksklusif nampak mahal macam di hotel 5-bintang. Krew pengurusan dewan sedia bantu segala urusan aturcara dari mula sampai tamat. Memang jimat kos apabila pakej perkahwinan sudah termasuk homestay premium untuk keluarga berehat lepas majlis akad nikah malam sebelumnya.",
+    comment: "Pelamin rumah sangat cantik. Krew pengurusan hoemstay sedia bantu segala urusan aturcara dari mula sampai tamat. Memang jimat kos apabila pakej perkahwinan sudah termasuk homestay premium untuk keluarga berehat lepas majlis akad nikah malam sebelumnya.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=300",
     eventDate: "April 2025",
@@ -175,7 +175,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t3",
     name: "Dr. Hazim Zakaria",
     role: "Pengarah Seminar Korporat",
-    comment: "Tempat yang paling ideal di Pokok Sena untuk mesyuarat dan seminar intensif. Tenang, bebas bising jalan raya, dan makan tenghari katering sedia masakan asli Kedah yang sungguh luar biasa lazat. Homestay Studio yang saya sewa sangat selesa dan bersih.",
+    comment: "Tempat yang paling ideal di Pokok Sena untuk mesyuarat dan seminar intensif. Tenang, bebas bising jalan raya, dan makan tenghari katering sedia masakan asli sedap. Homestay Studio yang saya sewa sangat selesa dan bersih.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300",
     eventDate: "Mac 2025",
@@ -219,17 +219,17 @@ export const FAQS: FAQItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    url: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+    url: "https://i.imgur.com/5KECntY.jpeg",
     category: "pelamin",
     title: "Pelamin Utama",
-    subtitle: "Hiasan pelamin moden kontemporari eksklusif"
+    subtitle: "Hiasan makan vip moden"
   },
   {
     id: "g2",
-    url: "https://images.unsplash.com/photo-1519225495810-7512c696505a?auto=format&fit=crop&q=80&w=1200",
-    category: "dewan",
+    url: "https://i.imgur.com/7LSWqs7.jpeg",
+    category: "Kawasan Acara",
     title: "Ruang Meja Beradab",
-    subtitle: "Susunan makan meja beradab mewah di dalam dewan"
+    subtitle: "Susunan makan meja beradab"
   },
   {
     id: "g3",
