@@ -28,7 +28,7 @@ export default function Closing() {
           </span>
 
           <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl font-light text-white tracking-tight">
-            Tempah Tarikh Jitu Majlis Anda <br />
+            Tempah Tarikh Majlis Anda <br />
             <span className="text-[#C5A059] italic font-normal">
               Sebelum Terlambat
             </span>
@@ -46,7 +46,7 @@ export default function Closing() {
               className="px-8 py-4 bg-[#C5A059] hover:bg-[#b08b47] text-white font-sans font-bold text-xs text-center tracking-widest uppercase rounded-sm shadow-xl transition-all duration-300 active:scale-95 flex items-center justify-center gap-2"
             >
               <Heart className="w-4 h-4 fill-white animate-bounce" />
-              <span>Semak Kosong Tarikh Jitu Sekarang</span>
+              <span>Semak Kosong Tarikh Sekarang</span>
             </a>
           </div>
 
@@ -122,7 +122,7 @@ export default function Closing() {
               <p className="text-xs font-bold uppercase tracking-widest text-[#8E8B85] mb-4">Ikuti Perkembangan Di Media Sosial:</p>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=100067088268790"
                   target="_blank"
                   rel="noreferrer"
                   className="w-10 h-10 rounded-sm border border-[#C5A059]/30 flex items-center justify-center text-stone-300 hover:bg-[#C5A059] hover:text-white transition-all duration-300"
@@ -131,7 +131,7 @@ export default function Closing() {
                   <Facebook className="w-4 h-4" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/hafiz_ahyat"
                   target="_blank"
                   rel="noreferrer"
                   className="w-10 h-10 rounded-sm border border-[#C5A059]/30 flex items-center justify-center text-stone-300 hover:bg-[#C5A059] hover:text-white transition-all duration-300"
@@ -147,22 +147,22 @@ export default function Closing() {
           {/* Interactive Google Map embed section */}
           <div className="lg:col-span-7 flex flex-col justify-between">
             <div className="rounded-sm overflow-hidden border border-[#C5A059]/30 shadow-2xl relative h-[380px] bg-zinc-800">
-              {/* Google Maps iFrame */}
-              <iframe
-                title="Situs Lokasi RR Homestay Pokok Sena Kedah"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15848.435775535564!2d100.50616149176378!3d6.16666708453489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b4fccd1bfd933%3A0xc48c1a63c64c7890!2sPokok%20Sena%2C%20Kedah!5e0!3m2!1sms!2smy!4v1700000000000"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+             {/* Google Maps iFrame */}
+<iframe
+  title="Situs Lokasi RR Homestay Pokok Sena Kedah"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3400504780516!2d100.47120839999999!3d6.113912999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b4f503631b491%3A0x1f0c55cf68a2a299!2sRR%20Homestay%20%26%20Eventspace%20Tualang%20D&#39;%20Pokok%20Sena!5e0!3m2!1sms!2smy!4v1718645000000!5m2!1sms!2smy"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen={true} {/* Ditukar ke true supaya pengguna boleh besarkan peta */}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
             </div>
 
             {/* Travel instruction text card */}
             <div className="mt-4 p-5 rounded-sm bg-[#1a1a1a]/40 border border-[#C5A059]/20 text-xs leading-relaxed text-stone-300 font-light text-left font-sans">
-              📍 <strong className="text-white font-semibold">Petunjuk Arah Tambahan:</strong> Kedudukan kami amat strategik di tepi jalan utama Alor Setar - Kuala Nerang. Mempunyai mercu tanda berdekatan Pejabat Pos Pokok Sena &amp; Masjid Jamek Pokok Sena, memudahkan tetamu luar negeri mencari lokasi dengan perisian Waze &amp; Google Maps secara tepat.
+              📍 <strong className="text-white font-semibold">Petunjuk Arah Tambahan:</strong> Kedudukan kami amat strategik di tepi jalan utama Pendang Ke Pokok Sena - Kuala Nerang. Mempunyai mercu tanda berdekatan Pejabat Penghulu Kampung Tualang &amp; Masjid Al- Anwar Kampung Tualang, memudahkan tetamu luar negeri mencari lokasi dengan perisian Waze &amp; Google Maps secara tepat.
             </div>
           </div>
 
