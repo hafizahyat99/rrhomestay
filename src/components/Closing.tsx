@@ -35,7 +35,7 @@ export default function Closing() {
           </h2>
 
           <p className="font-sans text-xs md:text-sm text-stone-300 leading-relaxed max-w-2xl font-light">
-            Tarikh cuti sekolah, hujung minggu panjang, dan musim cuti perayaan mempunyai permintaan yang amat tinggi di Pokok Sena, Kedah. Elakkan kekecewaan—hubungi juruacara perancang kami sekarang!
+            Tarikh cuti sekolah, hujung minggu panjang, dan musim cuti perayaan mempunyai permintaan yang amat tinggi di Pokok Sena, Kedah. Elakkan kekecewaan—hubungi kami sekarang!
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -46,7 +46,7 @@ export default function Closing() {
               className="px-8 py-4 bg-[#C5A059] hover:bg-[#b08b47] text-white font-sans font-bold text-xs text-center tracking-widest uppercase rounded-sm shadow-xl transition-all duration-300 active:scale-95 flex items-center justify-center gap-2"
             >
               <Heart className="w-4 h-4 fill-white animate-bounce" />
-              <span>Semak Kosong Tarikh Sekarang</span>
+              <span>Semak Kekosongan Tarikh Sekarang</span>
             </a>
           </div>
 
@@ -151,7 +151,7 @@ export default function Closing() {
 
               <iframe
                 title="Situs Lokasi RR Homestay Pokok Sena Kedah"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15848.435775535564!2d100.50616149176378!3d6.16666708453489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b4fccd1bfd933%3A0xc48c1a63c64c7890!2sPokok%20Sena%2C%20Kedah!5e0!3m2!1sms!2smy!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3400504780516!2d100.47120839999999!3d6.113912999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b4f503631b491%3A0x1f0c55cf68a2a299!2sRR%20Homestay%20%26%20Eventspace%20Tualang%20D&#39;%20Pokok%20Sena!5e0!3m2!1sms!2smy!4v1718645000000!5m2!1sms!2smy"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
