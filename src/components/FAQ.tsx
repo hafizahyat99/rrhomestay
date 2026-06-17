@@ -40,7 +40,7 @@ export default function FAQ() {
           </h2>
           <div className="w-16 h-[1px] mx-auto bg-[#C5A059] mb-6" />
           <p className="font-sans text-xs md:text-sm text-[#4A4A4A] leading-relaxed font-light">
-            Butiran lanjut mengenai kapasiti dewan, pengurusan katering perkahwinan, serta peraturan penginapan di RR Pokok Sena.
+            Butiran lanjut mengenai kapasiti tempat, pengurusan katering perkahwinan, serta peraturan penginapan di RR Pokok Sena.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function FAQ() {
             {[
               { id: 'all', label: 'Semua Soalan' },
               { id: 'general', label: 'Umum' },
-              { id: 'event', label: 'Pakej Dewan' },
+              { id: 'event', label: 'Pakej Kahwin' },
               { id: 'booking', label: 'Tempahan' },
               { id: 'homestay', label: 'Homestay' }
             ].map((tab) => (
@@ -149,8 +149,8 @@ export default function FAQ() {
               <Sparkles className="w-5 h-5 text-[#C5A059]" />
             </div>
             <div className="text-left">
-              <p className="font-sans text-xs text-[#1A1A1A] font-bold leading-tight">Tidak jumpa soalan berkaitan belanjawan anda?</p>
-              <p className="font-sans text-[11px] text-[#8E8B85] font-light mt-0.5">Sembang terus dengan pengurus majlis kami melalui WhatsApp untuk jawapan diperibadikan.</p>
+              <p className="font-sans text-xs text-[#1A1A1A] font-bold leading-tight">Tidak jumpa soalan anda?</p>
+              <p className="font-sans text-[11px] text-[#8E8B85] font-light mt-0.5">Sembang terus dengan pengurus majlis kami melalui WhatsApp untuk jawapan anda.</p>
             </div>
             <a
               href="https://wa.me/60194411934?text=Salam%20Admin%20RR%20Homestay.%20Saya%20baca%20FAQ%20di%20website%20pakej.%20Boleh%20saya%20bertanya%20mengenai..."
